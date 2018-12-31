@@ -20,8 +20,8 @@ def remove_element_from_end_of_array(array, element)
   array.pop(element)
 end
 
-def remove_element_from_start_of_array
+def remove_element_from_start_of_array(array, element)
   array = []
-  array.shift
+  array.shift(element)
 end
 
