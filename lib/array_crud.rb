@@ -26,3 +26,7 @@ end
 def retrieve_element_from_index(array, index)
   array[2]
 end
+
+def retrieve_element_from_array(array, index)
+  array[0]
+end
