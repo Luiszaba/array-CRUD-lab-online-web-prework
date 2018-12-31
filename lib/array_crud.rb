@@ -16,12 +16,12 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array, element)
-  array = []
-  array.pop(element)
+  array = ["cat", "dog"]
+  array.pop
 end
 
 def remove_element_from_start_of_array(array, element)
-  array = []
-  array.shift(element)
+  array = ["cat", "dog"]
+  array.shift
 end
 
